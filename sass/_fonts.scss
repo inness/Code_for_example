@@ -1,0 +1,11 @@
+
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular", $file-formats:ttf);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Bold", bold, $file-formats:ttf);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Light", 300, $file-formats:ttf);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-LightItalic", 300, italic, $file-formats:ttf);
+@include font-face("HelveticaNeueCyr", "../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin", 300, $file-formats:otf);
+@include font-face("HelveticaNeueCyr", "../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light", 400, $file-formats:otf);
+@include font-face("HelveticaNeueCyr", "../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold", 700, $file-formats:otf);
+
+@include font-face("AvenirNextLTPro", "../fonts/avenir-next-lt-pro/AvenirNextLTPro-HeavyCn", 900, $file-formats:otf);
+@include font-face("AvenirNextW1G-Heavy", "../fonts/avenir/AvenirNextW1G-Heavy", $file-formats:woff);
